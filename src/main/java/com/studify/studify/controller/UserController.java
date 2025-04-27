@@ -13,4 +13,9 @@ public class UserController {
         return "Hello";
     }
 
+    @GetMapping("/1")
+    public String hello1() {
+        return "Hello1";
+    }
+
 }
